@@ -1,0 +1,34 @@
+.app-container {
+  height: 100vh;
+  padding: 40px;
+}
+
+.selected-image-styles {
+  width: 100%;
+  border: 5px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.images-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
